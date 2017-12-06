@@ -1,0 +1,32 @@
+[debug] [2017-12-06T04:29:05.929Z] ----------------------------------------------------------------------
+[debug] [2017-12-06T04:29:05.936Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-12-06T04:29:05.937Z] CLI Version:   3.16.0
+[debug] [2017-12-06T04:29:05.937Z] Platform:      linux
+[debug] [2017-12-06T04:29:05.937Z] Node Version:  v8.9.0
+[debug] [2017-12-06T04:29:05.937Z] Time:          Wed Dec 06 2017 09:59:05 GMT+0530 (IST)
+[debug] [2017-12-06T04:29:05.938Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-06T04:29:05.998Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-06T04:29:05.998Z] > authorizing via signed-in user
+[debug] [2017-12-06T04:29:06.002Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-2cb72  
+  
+ Wed Dec 06 2017 09:59:06 GMT+0530 (IST)
+[debug] [2017-12-06T04:29:07.767Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-06T04:29:07.769Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-2cb72/tokens  
+  
+ Wed Dec 06 2017 09:59:07 GMT+0530 (IST)
+[debug] [2017-12-06T04:29:08.982Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/joker/Documents/Projects/friendlychat-web'...
+[info] 
+[debug] [2017-12-06T04:29:08.988Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-2cb72  
+  
+ Wed Dec 06 2017 09:59:08 GMT+0530 (IST)
+[debug] [2017-12-06T04:29:10.772Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-06T04:29:10.778Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/479604731979/clients/_:getWebAppConfig  
+  
+ Wed Dec 06 2017 09:59:10 GMT+0530 (IST)
+[debug] [2017-12-06T04:29:12.480Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: web-start
+[info] ✔  hosting: Local server: http://localhost:5000
+
