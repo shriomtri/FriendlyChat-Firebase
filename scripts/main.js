@@ -275,9 +275,9 @@ FriendlyChat.prototype.requestNotificationsPermissions = function() {
     // Notification permission granted.
     this.saveMessagingDeviceToken();
   }.bind(this)).catch(function(error) {
-    console.error('Unable to get permission to notify.', error);
+    console.error('Unable to get permission to notify.',  error);
   });
-  
+
 };
 
 // Resets the given MaterialTextField.
