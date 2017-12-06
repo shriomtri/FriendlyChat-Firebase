@@ -267,7 +267,7 @@ FriendlyChat.prototype.saveMessagingDeviceToken = function() {
 };
 
 // Requests permissions to show notifications.
-FriendlyChat.prototype.requestNotificationsPermissions =  function() {
+FriendlyChat.prototype.requestNotificationsPermissions =function() {
   // TODO(DEVELOPER): Request permissions to send notifications.
 
     console.log('Requesting notifications permission...');
